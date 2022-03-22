@@ -25,8 +25,8 @@
                 <mxCell id="20" value="Is the inputted number &lt;br&gt;the same&lt;br&gt;as number to guess?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="361.88" y="220" width="166.25" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Show Incorrect!&lt;br&gt;Then Show the&lt;br&gt;correct number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="255" width="150" height="90" as="geometry"/>
+                <mxCell id="23" value="Show Incorrect!&lt;br&gt;Your guess was&lt;br&gt;higher/lower than it.&lt;br&gt;Try again?" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="252.5" width="170" height="95" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="24" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
