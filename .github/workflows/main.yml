@@ -5,15 +5,13 @@
 ###############################################
 
 
-
 name: GitHub's Super Linter
-
+---
 on: push
 
 
 
 jobs:
-
   run-linters:
 
     name: GitHub's Super Linter
@@ -23,7 +21,6 @@ jobs:
 
 
     steps:
-
       - name: Check out Git repository
 
         uses: actions/checkout@master
