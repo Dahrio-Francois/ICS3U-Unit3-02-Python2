@@ -9,23 +9,21 @@
 import constants
 
 
-def numberGuess():
+def main():
     # this program starts the game
 
+    integer = int(input("Enter your guess between 0 & 9: "))
+
     # process
-    print("Enter your guess between 0 & 9")
-    guessed = 0
-    while guessed != constants.NUMBER:
-        guessed = int(input("\nTry to guess it: "))
-        if guessed == constants.NUMBER:
+    if integer == constants.NUMBER:
+        # output
+        print("\nCorrect! You guessed the right number!")
 
-            # output
-            print("\nCorrect! You guessed the right number!")
-            print("\nDone")
+        
+    elif integer != constants.NUMBER:
+        print("\nIncorrect! Try again?")
 
-        elif guessed != constants.NUMBER:
-            print("\nIncorrect! Try again?")
+    print("\nDone")
 
-
-if __name__ == "__numberGuess__":
-    numberGuess()
+if __name__ == "__main__":
+    main()
