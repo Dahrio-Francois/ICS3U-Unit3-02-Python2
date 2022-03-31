@@ -5,4 +5,4 @@
 # This file contains constants
 
 
-number = 7
+NUMBER = 7
